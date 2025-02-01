@@ -6,7 +6,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone [https://github.com/Ganza6/HBMS.git](https://github.com/Ganza6/Hotel-booking-management-System.git)
+   git clone https://github.com/Ganza6/Hotel-booking-management-System.git
    ```
 
 2. Установите зависимости:
