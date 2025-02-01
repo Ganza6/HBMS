@@ -1,0 +1,143 @@
+{
+    "workers": [
+        {
+            "id": "worker-id-1",
+            "name": "Борис",
+            "workerType": "masseur",
+            "startWorkHour": "10:00:00",
+            "endWorkHour": "18:00:00"
+        },
+        {
+            "id": "worker-id-2",
+            "name": "Андрей",
+            "workerType": "masseur",
+            "startWorkHour": "10:00:00",
+            "endWorkHour": "18:00:00"
+        },
+        {
+            "id": "worker-id-3",
+            "name": "Анна",
+            "workerType": "trainer", 
+            "startWorkHour": "10:00:00",
+            "endWorkHour": "18:00:00"
+        },
+        {
+            "id": "worker-id-4",
+            "name": "Владимир",
+            "workerType": "trainer", 
+            "startWorkHour": "10:00:00",
+            "endWorkHour": "14:00:00" 
+        }
+    ],
+    "services": [
+        {
+            "id": "service-massage-1",
+            "alias": "Массаж ног",
+            "timeSpendM": 30
+        },
+        {
+            "id": "service-massage-2",
+            "alias": "Массаж головы",
+            "timeSpendM": 60
+        },
+        {
+            "id": "service-massage-3",
+            "alias": "Массаж тела",
+            "timeSpendM": 120
+        },
+        {
+            "id": "service-fitness-1",
+            "alias": "Кардио тренировка",
+            "timeSpendM": 50
+        },
+        {
+            "id": "service-fitness-2",
+            "alias": "Фулл бади тренировка",
+            "timeSpendM":100
+        }
+    ],
+    "workerServices": [
+        {
+            "workerId": "worker-id-1",
+            "serviceId": "service-massage-1"
+        },
+        {
+            "workerId": "worker-id-1",
+            "serviceId": "service-massage-2"
+        },
+        {
+            "workerId": "worker-id-1",
+            "serviceId": "service-massage-3"
+        },
+        {
+            "workerId": "worker-id-2",
+            "serviceId": "service-massage-1"
+        },
+        {
+            "workerId": "worker-id-2",
+            "serviceId": "service-massage-2"
+        },
+        {
+            "workerId": "worker-id-2",
+            "serviceId": "service-massage-3"
+        },
+        {
+            "workerId": "worker-id-3",
+            "serviceId": "service-fitness-1"
+        },
+        {
+            "workerId": "worker-id-4",
+            "serviceId": "service-fitness-2"
+        }
+    ],
+    "shifts": [
+        {
+            "id": 1,
+            "workerId": "worker-id-1",
+            "date": "2025-05-05T00:00:00",
+            "startTime": "2025-05-05T10:00:00",
+            "endTime": "2025-05-05T18:00:00"
+        },
+        {
+            "id": 2,
+            "workerId": "worker-id-2",
+            "date": "2025-05-05T00:00:00",
+            "startTime": "2025-05-05T10:00:00",
+            "endTime": "2025-05-05T18:00:00"
+        },
+        {
+            "id": 3,
+            "workerId": "worker-id-3",
+            "date": "2025-05-05T00:00:00",
+            "startTime": "2025-05-05T10:00:00",
+            "endTime": "2025-05-05T18:00:00"
+        },
+        {
+            "id": 4,
+            "workerId": "worker-id-4",
+            "date": "2025-05-05T00:00:00",
+            "startTime": "2025-05-05T10:00:00",
+            "endTime": "2025-05-05T14:00:00"
+        }
+    ],
+    "busySlots": [
+        {
+            "id": 1,
+            "scheduleId": 1,
+            "startTime": "2025-05-05T10:00:00",
+            "durationM": 60
+        },
+        {
+            "id": 2,
+            "scheduleId": 1,
+            "startTime": "2025-05-05T14:00:00",
+            "durationM": 120
+        },
+        {
+            "id": 3,
+            "scheduleId": 2,
+            "startTime": "2025-05-05T11:00:00",
+            "durationM": 60
+        }
+    ]
+} 
